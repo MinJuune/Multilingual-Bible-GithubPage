@@ -21,7 +21,11 @@
             --nt-color: #6b8cba;
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             font-family: 'Noto Sans KR', sans-serif;
@@ -229,26 +233,27 @@
         }
 
         .chapter-buttons {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
-            gap: 0.45rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
             width: 100%;
         }
 
         .chapter-btn {
-            aspect-ratio: 1 / 1;
-            min-height: 44px;
+            width: 34px;
+            height: 34px;
             border: 1px solid var(--border);
-            border-radius: 8px;
+            border-radius: 6px;
             background: var(--bg-primary);
             cursor: pointer;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             color: var(--text-secondary);
             transition: all 0.15s;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 0;
+            flex: 0 0 auto;
         }
 
         .chapter-btn:hover {
@@ -390,9 +395,18 @@
             font-style: italic;
         }
 
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 3px;
+        }
 
         @media (max-width: 768px) {
             .app-layout {
@@ -439,14 +453,17 @@
             }
 
             .chapter-buttons {
-                grid-template-columns: repeat(6, 1fr);
-                gap: 0.4rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.3rem;
             }
 
             .chapter-btn {
-                min-height: 40px;
-                font-size: 0.8rem;
-                border-radius: 7px;
+                width: 34px;
+                height: 34px;
+                font-size: 0.78rem;
+                border-radius: 6px;
+                min-height: unset;
             }
 
             .lang-toggles {
@@ -478,13 +495,10 @@
                 grid-template-columns: repeat(3, 1fr);
             }
 
-            .chapter-buttons {
-                grid-template-columns: repeat(5, 1fr);
-            }
-
             .chapter-btn {
-                min-height: 38px;
-                font-size: 0.78rem;
+                width: 32px;
+                height: 32px;
+                font-size: 0.76rem;
             }
         }
     </style>
@@ -661,6 +675,7 @@
         const btn = document.getElementById(`chbtn-${ch}`);
         if (btn) {
             btn.classList.add('active');
+            btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
         }
 
         const area = document.getElementById('versesArea');
