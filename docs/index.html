@@ -419,15 +419,24 @@
                 width: 100%;
                 min-width: 0;
                 height: auto;
-                max-height: 360px;
+                max-height: none;
                 border-right: none;
-                border-bottom: 1px solid var(--border);
+                border-bottom: none;
+            }
+
+            .sidebar.full-mobile {
+                flex: 1;
+            }
+
+            .main-content.hidden-mobile {
+                display: none;
             }
 
             .books-list {
                 grid-template-columns: repeat(4, 1fr);
                 gap: 0.45rem;
                 padding: 0.7rem;
+                min-height: calc(100vh - 250px);
             }
 
             .book-item {
@@ -526,7 +535,7 @@
         </div>
     </aside>
 
-    <main class="main-content">
+    <main class="main-content" id="mainContent">
         <div class="chapter-nav" id="chapterNav"></div>
         <div class="verses-area" id="versesArea"></div>
     </main>
@@ -564,10 +573,28 @@
         return name.replace(/[\/\\?%*:|"<>]/g, '_');
     }
 
+    function updateInitialMobileLayout() {
+        const mainContent = document.getElementById('mainContent');
+        const sidebar = document.querySelector('.sidebar');
+        const isMobile = window.innerWidth <= 768;
+        const hasSelectedBook = !!currentBook;
+
+        if (!mainContent || !sidebar) return;
+
+        if (isMobile && !hasSelectedBook) {
+            mainContent.classList.add('hidden-mobile');
+            sidebar.classList.add('full-mobile');
+        } else {
+            mainContent.classList.remove('hidden-mobile');
+            sidebar.classList.remove('full-mobile');
+        }
+    }
+
     async function init() {
         const res = await fetch('./data-json/books.json');
         allBooks = await res.json();
         renderBooks();
+        updateInitialMobileLayout();
     }
 
     function filterBooks(query) {
@@ -579,6 +606,7 @@
         document.getElementById('tab-ot').className = 'testament-tab' + (tab === 'OT' ? ' active-ot' : '');
         document.getElementById('tab-nt').className = 'testament-tab' + (tab === 'NT' ? ' active-nt' : '');
         renderBooks(document.getElementById('searchInput').value);
+        updateInitialMobileLayout();
     }
 
     function renderBooks(query = '') {
@@ -622,6 +650,7 @@
         currentBook = book;
         currentChapter = null;
         renderBooks(document.getElementById('searchInput').value);
+        updateInitialMobileLayout();
 
         const chapterNav = document.getElementById('chapterNav');
         const versesArea = document.getElementById('versesArea');
@@ -718,6 +747,8 @@
             loadChapter(currentChapter);
         }
     }
+
+    window.addEventListener('resize', updateInitialMobileLayout);
 
     init();
 </script>
