@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다국어 성경 - Multilingual Bible</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Noto+Sans+KR:wght@300;400;600&family=Noto+Sans+JP:wght@300;400;600&family=Noto+Sans+SC:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #faf8f5;
+            --bg-secondary: #ffffff;
+            --text-primary: #2a2520;
+            --text-secondary: #6b5d52;
+            --accent: #8b6f47;
+            --accent-light: #c9a876;
+            --border: #e5ddd3;
+            --shadow: rgba(43, 37, 32, 0.08);
+            --ot-color: #7b9e87;
+            --nt-color: #6b8cba;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        header {
+            text-align: center;
+            padding: 2.5rem 0 1.5rem;
+            background: linear-gradient(180deg, #fff 0%, var(--bg-primary) 100%);
+            border-bottom: 2px solid var(--border);
+        }
+        h1 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 3.2rem;
+            font-weight: 300;
+            color: var(--accent);
+            letter-spacing: -0.02em;
+        }
+        .subtitle {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-top: 0.4rem;
+        }
+
+        .app-layout {
+            display: flex;
+            height: calc(100vh - 110px);
+        }
+
+        .sidebar {
+            width: 280px;
+            min-width: 220px;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .sidebar-search {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .sidebar-search input {
+            width: 100%;
+            padding: 0.5rem 0.8rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .sidebar-search input:focus { border-color: var(--accent-light); }
+
+        .testament-tabs {
+            display: flex;
+            border-bottom: 1px solid var(--border);
+        }
+        .testament-tab {
+            flex: 1;
+            padding: 0.6rem;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            color: var(--text-secondary);
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        .testament-tab.active-ot { color: var(--ot-color); border-bottom-color: var(--ot-color); }
+        .testament-tab.active-nt { color: var(--nt-color); border-bottom-color: var(--nt-color); }
+
+        .books-list {
+            overflow-y: auto;
+            flex: 1;
+            padding: 0.5rem 0;
+        }
+        .book-item {
+            padding: 0.7rem 1.2rem;
+            cursor: pointer;
+            transition: background 0.15s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .book-item:hover { background: var(--bg-primary); }
+        .book-item.active { background: #f3ece3; }
+        .book-item-name { font-size: 0.95rem; font-weight: 400; }
+        .book-item-en { font-size: 0.75rem; color: var(--text-secondary); font-family: 'Crimson Pro', serif; font-style: italic; }
+        .book-badge {
+            font-size: 0.65rem;
+            padding: 0.15rem 0.45rem;
+            border-radius: 10px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+        .badge-ot { background: #e8f3ec; color: var(--ot-color); }
+        .badge-nt { background: #e5edf5; color: var(--nt-color); }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chapter-nav {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            min-height: 56px;
+        }
+        .chapter-nav-title {
+            font-family: 'Crimson Pro', serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-right: 0.5rem;
+        }
+        .chapter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+        }
+        .chapter-btn {
+            width: 34px;
+            height: 34px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: var(--bg-primary);
+            cursor: pointer;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            transition: all 0.15s;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .chapter-btn:hover { border-color: var(--accent-light); color: var(--accent); }
+        .chapter-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+        .verses-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem 2rem;
+        }
+
+        .verse-block {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem 1.8rem;
+            margin-bottom: 1.2rem;
+            box-shadow: 0 2px 8px var(--shadow);
+            transition: box-shadow 0.2s;
+        }
+        .verse-block:hover { box-shadow: 0 4px 16px var(--shadow); }
+
+        .verse-number-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--accent);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            font-weight: 600;
+            font-size: 0.85rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .verse-row {
+            margin-bottom: 1rem;
+            padding-left: 0.8rem;
+            border-left: 3px solid transparent;
+            transition: border-color 0.2s;
+        }
+        .verse-row:hover { border-left-color: var(--accent-light); }
+        .verse-row:last-child { margin-bottom: 0; }
+
+        .lang-label {
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent-light);
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+        .verse-text-en {
+            font-family: 'Crimson Pro', serif;
+            font-size: 1.1rem;
+            font-style: italic;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+        .verse-text-de {
+            font-family: 'Crimson Pro', serif;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+        .verse-text-zh {
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+        .verse-text-ja {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+        .verse-text-ko {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        .lang-toggles {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-left: auto;
+        }
+        .lang-toggle {
+            padding: 0.3rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid var(--border);
+            background: var(--bg-primary);
+            color: var(--text-secondary);
+            transition: all 0.2s;
+            user-select: none;
+        }
+        .lang-toggle.on {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .welcome {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            gap: 1rem;
+        }
+        .welcome-icon { font-size: 4rem; opacity: 0.3; }
+        .welcome-text { font-family: 'Crimson Pro', serif; font-size: 1.4rem; font-weight: 300; }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+        .no-ot-jp {
+            font-size: 0.8rem;
+            color: #bbb;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .app-layout { flex-direction: column; height: auto; }
+            .sidebar { width: 100%; height: 200px; border-right: none; border-bottom: 1px solid var(--border); }
+            .verses-area { padding: 1rem; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bible</h1>
+    <div class="subtitle">한국어 (개역개정) &nbsp;•&nbsp; English (NIV) &nbsp;•&nbsp; Deutsch (Luther) &nbsp;•&nbsp; 中文 (和合本) &nbsp;•&nbsp; 日本語 (口語訳)</div>
+</header>
+
+<div class="app-layout">
+    <aside class="sidebar">
+        <div class="sidebar-search">
+            <input type="text" id="searchInput" placeholder="책 이름 검색..." oninput="filterBooks(this.value)">
+        </div>
+        <div class="testament-tabs">
+            <div class="testament-tab active-ot" id="tab-ot" onclick="setTab('OT')">구약 (OT)</div>
+            <div class="testament-tab" id="tab-nt" onclick="setTab('NT')">신약 (NT)</div>
+        </div>
+        <div class="books-list" id="booksList">
+            <div class="loading">불러오는 중...</div>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <div class="chapter-nav" id="chapterNav">
+            <div class="welcome" id="welcomeMsg" style="display:flex;">
+                <div class="welcome-icon">✝</div>
+                <div class="welcome-text">책을 선택해 주세요</div>
+            </div>
+        </div>
+        <div class="verses-area" id="versesArea"></div>
+    </main>
+</div>
+
+<script>
+    let allBooks = [];
+    let currentTab = 'OT';
+    let currentBook = null;
+    let currentChapter = null;
+    let activeLangs = { ko: true, en: true, de: true, zh: true, ja: true };
+
+    const KO_NAMES = {
+        'Genesis':'창세기','Exodus':'출애굽기','Leviticus':'레위기','Numbers':'민수기',
+        'Deuteronomy':'신명기','Joshua':'여호수아','Judges':'사사기','Ruth':'룻기',
+        '1 Samuel':'사무엘상','2 Samuel':'사무엘하','1 Kings':'열왕기상','2 Kings':'열왕기하',
+        '1 Chronicles':'역대상','2 Chronicles':'역대하','Ezra':'에스라','Nehemiah':'느헤미야',
+        'Esther':'에스더','Job':'욥기','Psalms':'시편','Proverbs':'잠언',
+        'Ecclesiastes':'전도서','Song of Songs':'아가','Isaiah':'이사야','Jeremiah':'예레미야',
+        'Lamentations':'예레미야애가','Ezekiel':'에스겔','Daniel':'다니엘','Hosea':'호세아',
+        'Joel':'요엘','Amos':'아모스','Obadiah':'오바댜','Jonah':'요나','Micah':'미가',
+        'Nahum':'나훔','Habakkuk':'하박국','Zephaniah':'스바냐','Haggai':'학개',
+        'Zechariah':'스가랴','Malachi':'말라기',
+        'Matthew':'마태복음','Mark':'마가복음','Luke':'누가복음','John':'요한복음',
+        'Acts':'사도행전','Romans':'로마서','1 Corinthians':'고린도전서','2 Corinthians':'고린도후서',
+        'Galatians':'갈라디아서','Ephesians':'에베소서','Philippians':'빌립보서','Colossians':'골로새서',
+        '1 Thessalonians':'데살로니가전서','2 Thessalonians':'데살로니가후서',
+        '1 Timothy':'디모데전서','2 Timothy':'디모데후서','Titus':'디도서','Philemon':'빌레몬서',
+        'Hebrews':'히브리서','James':'야고보서','1 Peter':'베드로전서','2 Peter':'베드로후서',
+        '1 John':'요한일서','2 John':'요한이서','3 John':'요한삼서','Jude':'유다서',
+        'Revelation':'요한계시록'
+    };
+
+    function toSafeFileName(name) {
+        return name.replace(/[\/\\?%*:|"<>]/g, '_');
+    }
+
+    async function init() {
+        const res = await fetch('./data-json/books.json');
+        allBooks = await res.json();
+        renderBooks();
+    }
+
+    function filterBooks(query) {
+        renderBooks(query);
+    }
+
+    function setTab(tab) {
+        currentTab = tab;
+        document.getElementById('tab-ot').className = 'testament-tab' + (tab === 'OT' ? ' active-ot' : '');
+        document.getElementById('tab-nt').className = 'testament-tab' + (tab === 'NT' ? ' active-nt' : '');
+        renderBooks(document.getElementById('searchInput').value);
+    }
+
+    function renderBooks(query = '') {
+        const q = query.toLowerCase();
+        const filtered = allBooks.filter(b => {
+            if (b.testament !== currentTab) return false;
+            if (!q) return true;
+            const ko = (KO_NAMES[b.id] || '').toLowerCase();
+            return b.id.toLowerCase().includes(q) || ko.includes(q) ||
+                   (b.de || '').toLowerCase().includes(q) || (b.zh || '').includes(q);
+        });
+
+        const container = document.getElementById('booksList');
+        if (filtered.length === 0) {
+            container.innerHTML = '<div class="loading">검색 결과 없음</div>';
+            return;
+        }
+        container.innerHTML = filtered.map(b => {
+            const ko = KO_NAMES[b.id] || b.id;
+            const isActive = currentBook && currentBook.id === b.id;
+            return `<div class="book-item ${isActive ? 'active' : ''}" onclick="selectBook('${b.id}')">
+                <div>
+                    <div class="book-item-name">${ko}</div>
+                    <div class="book-item-en">${b.en}</div>
+                </div>
+                <span class="book-badge badge-${b.testament.toLowerCase()}">${b.testament}</span>
+            </div>`;
+        }).join('');
+    }
+
+    async function selectBook(bookId) {
+        const book = allBooks.find(b => b.id === bookId);
+        if (!book) {
+            console.error('Book not found:', bookId);
+            return;
+        }
+
+        currentBook = book;
+        currentChapter = null;
+        renderBooks(document.getElementById('searchInput').value);
+
+        const chapterNav = document.getElementById('chapterNav');
+        chapterNav.innerHTML = `<div class="loading">챕터 불러오는 중...</div>`;
+        document.getElementById('versesArea').innerHTML = '';
+
+        const safeBook = toSafeFileName(book.id);
+        const res = await fetch(`./data-json/chapters/${safeBook}.json`);
+        const chapters = await res.json();
+
+        const ko = KO_NAMES[book.id] || book.id;
+        const hasJa = !!book.ja;
+
+        chapterNav.innerHTML = `
+            <div class="chapter-nav-title">${ko}</div>
+            <div class="chapter-buttons">
+                ${chapters.map(ch =>
+                    `<button class="chapter-btn" id="chbtn-${ch}" onclick="loadChapter(${ch})">${ch}</button>`
+                ).join('')}
+            </div>
+            <div class="lang-toggles">
+                <span class="lang-toggle on" id="tog-ko" onclick="toggleLang('ko')">KO</span>
+                <span class="lang-toggle on" id="tog-en" onclick="toggleLang('en')">EN</span>
+                <span class="lang-toggle on" id="tog-de" onclick="toggleLang('de')">DE</span>
+                <span class="lang-toggle on" id="tog-zh" onclick="toggleLang('zh')">ZH</span>
+                <span class="lang-toggle ${hasJa ? 'on' : ''}" id="tog-ja" onclick="toggleLang('ja')" ${!hasJa ? 'title="구약은 일본어 없음"' : ''}>JA${!hasJa ? '<small>*</small>' : ''}</span>
+            </div>
+        `;
+
+        if (!hasJa) {
+            activeLangs.ja = false;
+            document.getElementById('tog-ja').classList.remove('on');
+        } else {
+            activeLangs.ja = true;
+        }
+
+        if (chapters.length > 0) loadChapter(chapters[0]);
+    }
+
+    async function loadChapter(ch) {
+        currentChapter = ch;
+
+        document.querySelectorAll('.chapter-btn').forEach(btn => btn.classList.remove('active'));
+        const btn = document.getElementById(`chbtn-${ch}`);
+        if (btn) {
+            btn.classList.add('active');
+            btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
+
+        const area = document.getElementById('versesArea');
+        area.innerHTML = '<div class="loading">구절 불러오는 중...</div>';
+
+        const safeBook = toSafeFileName(currentBook.id);
+        const res = await fetch(`./data-json/verses/${safeBook}/${ch}.json`);
+        const data = await res.json();
+
+        area.innerHTML = data.verses.map(v => buildVerseHTML(v)).join('');
+        area.scrollTop = 0;
+    }
+
+    function buildVerseHTML(v) {
+        const rows = [];
+        if (activeLangs.ko && v.ko) rows.push(`<div class="verse-row"><div class="lang-label">한국어 (개역개정)</div><div class="verse-text-ko">${v.ko}</div></div>`);
+        if (activeLangs.en && v.en) rows.push(`<div class="verse-row"><div class="lang-label">English (NIV)</div><div class="verse-text-en">${v.en}</div></div>`);
+        if (activeLangs.de && v.de) rows.push(`<div class="verse-row"><div class="lang-label">Deutsch (Luther)</div><div class="verse-text-de">${v.de}</div></div>`);
+        if (activeLangs.zh && v.zh) rows.push(`<div class="verse-row"><div class="lang-label">中文 (和合本)</div><div class="verse-text-zh">${v.zh}</div></div>`);
+        if (activeLangs.ja && v.ja) rows.push(`<div class="verse-row"><div class="lang-label">日本語 (口語訳)</div><div class="verse-text-ja">${v.ja}</div></div>`);
+        return `<div class="verse-block">
+            <div class="verse-number-badge">${v.number}</div>
+            ${rows.join('')}
+        </div>`;
+    }
+
+    function toggleLang(lang) {
+        activeLangs[lang] = !activeLangs[lang];
+        const el = document.getElementById(`tog-${lang}`);
+        el.classList.toggle('on', activeLangs[lang]);
+        if (currentChapter) loadChapter(currentChapter);
+    }
+
+    init();
+</script>
+</body>
+</html>

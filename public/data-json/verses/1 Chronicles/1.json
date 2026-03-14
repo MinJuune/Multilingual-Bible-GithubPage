@@ -1,0 +1,438 @@
+{
+  "book": "1 Chronicles",
+  "chapter": 1,
+  "verses": [
+    {
+      "number": 1,
+      "en": "Adam, Seth, Enosh,",
+      "de": "",
+      "zh": "亚当生塞特；塞特生以挪士；",
+      "ja": "",
+      "ko": "아담, 셋, 에노스,"
+    },
+    {
+      "number": 2,
+      "en": "Kenan, Mahalalel, Jared,",
+      "de": "",
+      "zh": "以挪士生该南；该南生玛勒列；玛勒列生雅列；",
+      "ja": "",
+      "ko": "게난, 마할랄렐, 야렛,"
+    },
+    {
+      "number": 3,
+      "en": "Enoch, Methuselah, Lamech, Noah.",
+      "de": "",
+      "zh": "雅列生以诺；以诺生玛土撒拉；玛土撒拉生拉麦；",
+      "ja": "",
+      "ko": "에녹, 므두셀라, 라멕,"
+    },
+    {
+      "number": 4,
+      "en": "The sons of Noah: Shem, Ham and Japheth.",
+      "de": "",
+      "zh": "拉麦生挪亚；挪亚生闪、含、雅弗。",
+      "ja": "",
+      "ko": "노아, 셈, 함과 야벳은 조상들이라"
+    },
+    {
+      "number": 5,
+      "en": "The sons of Japheth: Gomer, Magog, Madai, Javan, Tubal, Meshech and Tiras.",
+      "de": "",
+      "zh": "雅弗的儿子是歌篾、玛各、玛代、雅完、土巴、米设、提拉。",
+      "ja": "",
+      "ko": "야벳의 자손은 고멜과 마곡과 마대와 야완과 두발과 메섹과 디라스요"
+    },
+    {
+      "number": 6,
+      "en": "The sons of Gomer: Ashkenaz, Riphath and Togarmah.",
+      "de": "",
+      "zh": "歌篾的儿子是亚实基拿、低法、陀迦玛。",
+      "ja": "",
+      "ko": "고멜의 자손은 아스그나스와 디밧과 도갈마요"
+    },
+    {
+      "number": 7,
+      "en": "The sons of Javan: Elishah, Tarshish, the Kittim and the Rodanim.",
+      "de": "",
+      "zh": "雅完的儿子是以利沙、他施、基提、多单。",
+      "ja": "",
+      "ko": "야완의 자손은 엘리사와 다시스와 깃딤과 도다님이더라"
+    },
+    {
+      "number": 8,
+      "en": "The sons of Ham: Cush, Mizraim, Put and Canaan.",
+      "de": "",
+      "zh": "含的儿子是古实、麦西、弗、迦南。",
+      "ja": "",
+      "ko": "함의 자손은 구스와 미스라임과 붓과 가나안이요"
+    },
+    {
+      "number": 9,
+      "en": "The sons of Cush: Seba, Havilah, Sabta, Raamah and Sabteca. The sons of Raamah: Sheba and Dedan.",
+      "de": "",
+      "zh": "古实的儿子是西巴、哈腓拉、撒弗他、拉玛、撒弗提迦。拉玛的儿子是示巴、底但。",
+      "ja": "",
+      "ko": "구스의 자손은 스바와 하윌라와 삽다와 라아마와 삽드가요 라아마의 자손은 스바와 드단이요"
+    },
+    {
+      "number": 10,
+      "en": "Cush was the father of Nimrod, who grew to be a mighty warrior on earth.",
+      "de": "",
+      "zh": "古实生宁录；他为世上英雄之首。",
+      "ja": "",
+      "ko": "구스가 또 니므롯을 낳았으니 세상에서 첫 영걸이며"
+    },
+    {
+      "number": 11,
+      "en": "Mizraim was the father of the Ludites, Anamites, Lehabites, Naphtuhites,",
+      "de": "",
+      "zh": "麦西生路低人、亚拿米人、利哈比人、拿弗土希人、",
+      "ja": "",
+      "ko": "미스라임은 루딤과 아나밈과 르하빔과 납두힘과"
+    },
+    {
+      "number": 12,
+      "en": "Pathrusites, Casluhites (from whom the Philistines came) and Caphtorites.",
+      "de": "",
+      "zh": "帕斯鲁细人、迦斯路希人、迦斐托人；从迦斐托出来的有非利士人。",
+      "ja": "",
+      "ko": "바드루심과 가슬루힘과 갑도림을 낳았으니 블레셋 종족은 가슬루힘에게서 나왔으며"
+    },
+    {
+      "number": 13,
+      "en": "Canaan was the father of Sidon his firstborn, and of the Hittites,",
+      "de": "",
+      "zh": "迦南生长子西顿，又生赫",
+      "ja": "",
+      "ko": "가나안은 맏아들 시돈과 헷을 낳고"
+    },
+    {
+      "number": 14,
+      "en": "Jebusites, Amorites, Girgashites,",
+      "de": "",
+      "zh": "和耶布斯人、亚摩利人、革迦撒人、",
+      "ja": "",
+      "ko": "또 여부스 종족과 아모리 종족과 기르가스 종족과"
+    },
+    {
+      "number": 15,
+      "en": "Hivites, Arkites, Sinites,",
+      "de": "",
+      "zh": "希未人、亚基人、西尼人、",
+      "ja": "",
+      "ko": "히위 종족과 알가 종족과 신 종족과"
+    },
+    {
+      "number": 16,
+      "en": "Arvadites, Zemarites and Hamathites.",
+      "de": "",
+      "zh": "亚瓦底人、洗玛利人，并哈马人。",
+      "ja": "",
+      "ko": "아르왓 종족과 스말 종족과 하맛 종족을 낳았더라"
+    },
+    {
+      "number": 17,
+      "en": "The sons of Shem: Elam, Asshur, Arphaxad, Lud and Aram. The sons of Aram: Uz, Hul, Gether and Meshech.",
+      "de": "",
+      "zh": "闪的儿子是以拦、亚述、亚法 撒、路德、亚兰、乌斯、户勒、基帖、米设。",
+      "ja": "",
+      "ko": "셈의 자손은 엘람과 앗수르와 아르박삿과 룻과 아람과 우스와 훌과 게델과 메섹이라"
+    },
+    {
+      "number": 18,
+      "en": "Arphaxad was the father of Shelah, and Shelah the father of Eber.",
+      "de": "",
+      "zh": "亚法撒生沙拉；沙拉生希伯。",
+      "ja": "",
+      "ko": "아르박삿은 셀라를 낳고 셀라는 에벨을 낳고"
+    },
+    {
+      "number": 19,
+      "en": "Two sons were born to Eber: One was named Peleg, because in his time the earth was divided; his brother was named Joktan.",
+      "de": "",
+      "zh": "希伯生了两个儿子：一个名叫法勒，因为那时人就分地居住；法勒的兄弟名叫约坍。",
+      "ja": "",
+      "ko": "에벨은 두 아들을 낳아 하나의 이름을 벨렉이라 하였으니 이는 그 때에 땅이 나뉘었음이요 그의 아우의 이름은 욕단이며"
+    },
+    {
+      "number": 20,
+      "en": "Joktan was the father of Almodad, Sheleph, Hazarmaveth, Jerah,",
+      "de": "",
+      "zh": "约坍生亚摩答、沙列、哈萨玛非、耶拉、",
+      "ja": "",
+      "ko": "욕단이 알모닷과 셀렙과 하살마?과 예라와"
+    },
+    {
+      "number": 21,
+      "en": "Hadoram, Uzal, Diklah,",
+      "de": "",
+      "zh": "哈多兰、乌萨、德拉、",
+      "ja": "",
+      "ko": "하도람과 우살과 디글라와"
+    },
+    {
+      "number": 22,
+      "en": "Obal, Abimael, Sheba,",
+      "de": "",
+      "zh": "以巴录、亚比玛利、示巴、",
+      "ja": "",
+      "ko": "에발과 아비마엘과 스바와"
+    },
+    {
+      "number": 23,
+      "en": "Ophir, Havilah and Jobab. All these were sons of Joktan.",
+      "de": "",
+      "zh": "阿斐、哈腓拉、约巴。这都是约坍的儿子。",
+      "ja": "",
+      "ko": "오빌과 하윌라와 요밥을 낳았으니 욕단의 자손은 이상과 같으니라"
+    },
+    {
+      "number": 24,
+      "en": "Shem, Arphaxad, Shelah,",
+      "de": "",
+      "zh": "闪生亚法撒；亚法撒生沙拉；",
+      "ja": "",
+      "ko": "셈, 아르박삿, 셀라,"
+    },
+    {
+      "number": 25,
+      "en": "Eber, Peleg, Reu,",
+      "de": "",
+      "zh": "沙拉生希伯；希伯生法勒；法勒生拉吴；",
+      "ja": "",
+      "ko": "에벨, 벨렉, 르우,"
+    },
+    {
+      "number": 26,
+      "en": "Serug, Nahor, Terah",
+      "de": "",
+      "zh": "拉吴生西鹿；西鹿生拿鹤；拿鹤生他拉；",
+      "ja": "",
+      "ko": "스룩, 나홀, 데라,"
+    },
+    {
+      "number": 27,
+      "en": "and Abram (that is, Abraham).",
+      "de": "",
+      "zh": "他拉生亚伯兰，亚伯兰就是亚伯拉罕。",
+      "ja": "",
+      "ko": "아브람 곧 아브라함은 조상들이요"
+    },
+    {
+      "number": 28,
+      "en": "The sons of Abraham: Isaac and Ishmael.",
+      "de": "",
+      "zh": "亚伯拉罕的儿子是以撒、以实玛利。",
+      "ja": "",
+      "ko": "아브라함의 자손은 이삭과 이스마엘이라"
+    },
+    {
+      "number": 29,
+      "en": "These were their descendants: Nebaioth the firstborn of Ishmael, Kedar, Adbeel, Mibsam,",
+      "de": "",
+      "zh": "以实玛利的儿子记在下面：以实玛利的长子是尼拜约，其次是基达、押德别、米比衫、",
+      "ja": "",
+      "ko": "이스마엘의 족보는 이러하니 그의 맏아들은 느바욧이요 다음은 게달과 앗브엘과 밉삼과"
+    },
+    {
+      "number": 30,
+      "en": "Mishma, Dumah, Massa, Hadad, Tema,",
+      "de": "",
+      "zh": "米施玛、度玛、玛撒、哈达、提玛、",
+      "ja": "",
+      "ko": "미스마와 두마와 맛사와 하닷과 데마와"
+    },
+    {
+      "number": 31,
+      "en": "Jetur, Naphish and Kedemah. These were the sons of Ishmael.",
+      "de": "",
+      "zh": "伊突、拿非施、基底玛。这都是以实玛利的儿子。",
+      "ja": "",
+      "ko": "여둘과 나비스와 게드마라 이들은 이스마엘의 자손들이라"
+    },
+    {
+      "number": 32,
+      "en": "The sons born to Keturah, Abraham's concubine: Zimran, Jokshan, Medan, Midian, Ishbak and Shuah. The sons of Jokshan: Sheba and Dedan.",
+      "de": "",
+      "zh": "亚伯拉罕的妾基土拉所生的儿子，就是心兰、约珊、米但、米甸、伊施巴、书亚。约珊的儿子是示巴、底但。",
+      "ja": "",
+      "ko": "아브라함의 소실 그두라가 낳은 자손은 시므란과 욕산과 므단과 미디안과 이스박과 수아요 욕산의 자손은 스바와 드단이요"
+    },
+    {
+      "number": 33,
+      "en": "The sons of Midian: Ephah, Epher, Hanoch, Abida and Eldaah. All these were descendants of Keturah.",
+      "de": "",
+      "zh": "米甸的儿子是以法、以弗、哈诺、亚比大、以勒大。这都是基土拉的子孙。",
+      "ja": "",
+      "ko": "미디안의 자손은 에바와 에벨과 하녹과 아비다와 엘다아니 이들은 모두 그두라의 자손들이라"
+    },
+    {
+      "number": 34,
+      "en": "Abraham was the father of Isaac. The sons of Isaac: Esau and Israel.",
+      "de": "",
+      "zh": "亚伯拉罕生以撒；以撒的儿子是以扫和以色列。",
+      "ja": "",
+      "ko": "아브라함이 이삭을 낳았으니 이삭의 아들은 에서와 이스라엘이더라"
+    },
+    {
+      "number": 35,
+      "en": "The sons of Esau: Eliphaz, Reuel, Jeush, Jalam and Korah.",
+      "de": "",
+      "zh": "以扫的儿子是以利法、流珥、耶乌施、雅兰、可拉。",
+      "ja": "",
+      "ko": "에서의 아들은 엘리바스와 르우엘과 여우스와 얄람과 고라요"
+    },
+    {
+      "number": 36,
+      "en": "The sons of Eliphaz: Teman, Omar, Zepho, Gatam and Kenaz; by Timna: Amalek.",
+      "de": "",
+      "zh": "以利法的儿子是提幔、阿抹、洗玻、迦坦、基纳斯、亭纳、亚玛力。",
+      "ja": "",
+      "ko": "엘리바스의 아들은 데만과 오말과 스비와 가담과 그나스와 딤나와 아말렉이요"
+    },
+    {
+      "number": 37,
+      "en": "The sons of Reuel: Nahath, Zerah, Shammah and Mizzah.",
+      "de": "",
+      "zh": "流珥的儿子是拿哈、谢拉、沙玛、米撒。",
+      "ja": "",
+      "ko": "르우엘의 아들은 나핫과 세라와 삼마와 밋사요"
+    },
+    {
+      "number": 38,
+      "en": "The sons of Seir: Lotan, Shobal, Zibeon, Anah, Dishon, Ezer and Dishan.",
+      "de": "",
+      "zh": "西珥的儿子是罗坍、朔巴、祭便、亚拿、底顺、以察、底珊。",
+      "ja": "",
+      "ko": "세일의 아들은 로단과 소발과 시브온과 아나와 디손과 에셀과 디산이요"
+    },
+    {
+      "number": 39,
+      "en": "The sons of Lotan: Hori and Homam. Timna was Lotan's sister.",
+      "de": "",
+      "zh": "罗坍的儿子是何利、荷幔；罗坍的妹子是亭纳。",
+      "ja": "",
+      "ko": "로단의 아들은 호리와 호맘이요 로단의 누이는 딤나요"
+    },
+    {
+      "number": 40,
+      "en": "The sons of Shobal: Alvan, Manahath, Ebal, Shepho and Onam. The sons of Zibeon: Aiah and Anah.",
+      "de": "",
+      "zh": "朔巴的儿子是亚勒文、玛拿辖、以巴录、示非、阿南。祭便的儿子是亚雅、亚拿。",
+      "ja": "",
+      "ko": "소발의 아들은 알랸과 마나핫과 에발과 스비와 오남이요 시브온의 아들은 아야와 아나요"
+    },
+    {
+      "number": 41,
+      "en": "The son of Anah: Dishon. The sons of Dishon: Hemdan, Eshban, Ithran and Keran.",
+      "de": "",
+      "zh": "亚拿的儿子是底顺。底顺的儿子是哈默兰、伊是班、益兰、基兰。",
+      "ja": "",
+      "ko": "아나의 아들은 디손이요 디손의 아들은 하므란과 에스반과 이드란과 그란이요"
+    },
+    {
+      "number": 42,
+      "en": "The sons of Ezer: Bilhan, Zaavan and Akan. The sons of Dishan: Uz and Aran.",
+      "de": "",
+      "zh": "以察的儿子是辟罕、撒番、亚干。底珊的儿子是乌斯、亚兰。",
+      "ja": "",
+      "ko": "에셀의 아들은 빌한과 사아완과 야아간이요 디산의 아들은 우스와 아란이더라"
+    },
+    {
+      "number": 43,
+      "en": "These were the kings who reigned in Edom before any Israelite king reigned: Bela son of Beor, whose city was named Dinhabah.",
+      "de": "",
+      "zh": "以色列人未有君王治理之先，在以东地作王的记在下面：有比珥的儿子比拉，他的京城名叫亭哈巴。",
+      "ja": "",
+      "ko": "이스라엘 자손을 다스리는 왕이 있기 전에 에돔 땅을 다스린 왕은 이러 하니라 브올의 아들 벨라니 그의 도성 이름은 딘하바이며"
+    },
+    {
+      "number": 44,
+      "en": "When Bela died, Jobab son of Zerah from Bozrah succeeded him as king.",
+      "de": "",
+      "zh": "比拉死了，波斯拉人谢拉的儿子约巴接续他作王。",
+      "ja": "",
+      "ko": "벨라가 죽으매 보스라 세라의 아들 요밥이 대신하여 왕이 되고"
+    },
+    {
+      "number": 45,
+      "en": "When Jobab died, Husham from the land of the Temanites succeeded him as king.",
+      "de": "",
+      "zh": "约巴死了，提幔地的人户珊接续他作王。",
+      "ja": "",
+      "ko": "요밥이 죽으매 데만 종족의 땅의 사람 후삼이 대신하여 왕이 되고"
+    },
+    {
+      "number": 46,
+      "en": "When Husham died, Hadad son of Bedad, who defeated Midian in the country of Moab, succeeded him as king. His city was named Avith.",
+      "de": "",
+      "zh": "户珊死了，比达的儿子哈达接续他作王。这哈达就是在摩押地杀败米甸人的，他的京城名叫亚未得。",
+      "ja": "",
+      "ko": "후삼이 죽으매 브닷의 아들 하닷이 대신하여 왕이 되었으니 하닷은 모압 들에서 미디안을 친 자요 그 도성 이름은 아윗이며"
+    },
+    {
+      "number": 47,
+      "en": "When Hadad died, Samlah from Masrekah succeeded him as king.",
+      "de": "",
+      "zh": "哈达死了，玛士利加人桑拉接续他作王。",
+      "ja": "",
+      "ko": "하닷이 죽으매 마스레가의 사믈라가 대신하여 왕이 되고"
+    },
+    {
+      "number": 48,
+      "en": "When Samlah died, Shaul from Rehoboth on the river succeeded him as king.",
+      "de": "",
+      "zh": "桑拉死了，大河边的利河伯人扫罗接续他作王。",
+      "ja": "",
+      "ko": "사믈라가 죽으매 강 가의 르호봇 사울이 대신하여 왕이 되고"
+    },
+    {
+      "number": 49,
+      "en": "When Shaul died, Baal-Hanan son of Acbor succeeded him as king.",
+      "de": "",
+      "zh": "扫罗死了，亚革波的儿子巴勒·哈南接续他作王。",
+      "ja": "",
+      "ko": "사울이 죽으매 악볼의 아들 바알하난이 대신하여 왕이 되고"
+    },
+    {
+      "number": 50,
+      "en": "When Baal-Hanan died, Hadad succeeded him as king. His city was named Pau, and his wife's name was Mehetabel daughter of Matred, the daughter of Me-Zahab.",
+      "de": "",
+      "zh": "巴勒·哈南死了，哈达接续他作王。他的京城名叫巴伊，他的妻子名叫米希她别，是米·萨合的孙女，玛特列的女儿。",
+      "ja": "",
+      "ko": "바알하난이 죽으매 하닷이 대신하여 왕이 되었으니 그의 도성 이름은 바이요 그의 아내의 이름은 므헤다벨이라 메사합의 손녀요 마드렛의 딸이더라"
+    },
+    {
+      "number": 51,
+      "en": "Hadad also died. The chiefs of Edom were: Timna, Alvah, Jetheth,",
+      "de": "",
+      "zh": "哈达死了，以东人的族长有亭纳族长、亚勒瓦族长、耶帖族长、",
+      "ja": "",
+      "ko": "하닷이 죽으니라 그리고 에돔의 족장은 이러하니 딤나 족장과 알랴 족장과 여뎃 족장과"
+    },
+    {
+      "number": 52,
+      "en": "Oholibamah, Elah, Pinon,",
+      "de": "",
+      "zh": "亚何利巴玛族长、以拉族长、比嫩族长、",
+      "ja": "",
+      "ko": "오홀리바마 족장과 엘라 족장과 비논 족장과"
+    },
+    {
+      "number": 53,
+      "en": "Kenaz, Teman, Mibzar,",
+      "de": "",
+      "zh": "基纳斯族长、提幔族长、米比萨族长、",
+      "ja": "",
+      "ko": "그나스 족장과 데만 족장과 밉살 족장과"
+    },
+    {
+      "number": 54,
+      "en": "Magdiel and Iram. These were the chiefs of Edom.",
+      "de": "",
+      "zh": "玛基叠族长、以兰族长。这都是以东人的族长。",
+      "ja": "",
+      "ko": "막디엘 족장과 이람 족장이라 에돔의 족장이 이러하였더라"
+    }
+  ]
+}

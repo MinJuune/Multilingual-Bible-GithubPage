@@ -1,0 +1,654 @@
+{
+  "book": "1 Chronicles",
+  "chapter": 6,
+  "verses": [
+    {
+      "number": 1,
+      "en": "The sons of Levi: Gershon, Kohath and Merari.",
+      "de": "",
+      "zh": "利未的儿子是革顺、哥辖、米拉利。",
+      "ja": "",
+      "ko": "레위의 아들들은 게르손과 그핫과 므라리요"
+    },
+    {
+      "number": 2,
+      "en": "The sons of Kohath: Amram, Izhar, Hebron and Uzziel.",
+      "de": "",
+      "zh": "哥辖的儿子是暗兰、以斯哈、希伯伦、乌薛。",
+      "ja": "",
+      "ko": "그핫의 아들들은 아므람과 이스할과 헤브론과 웃시엘이요"
+    },
+    {
+      "number": 3,
+      "en": "The children of Amram: Aaron, Moses and Miriam. The sons of Aaron: Nadab, Abihu, Eleazar and Ithamar.",
+      "de": "",
+      "zh": "暗兰的儿子是亚伦、摩西，还有女儿米利暗。亚伦的儿子是拿答、亚比户、以利亚撒、以他玛。",
+      "ja": "",
+      "ko": "아므람의 자녀는 아론과 모세와 미리암이요 아론의 자녀는 나답과 아비후와 엘르아살과 이다말이며"
+    },
+    {
+      "number": 4,
+      "en": "Eleazar was the father of Phinehas, Phinehas the father of Abishua,",
+      "de": "",
+      "zh": "以利亚撒生非尼哈；非尼哈生亚比书；",
+      "ja": "",
+      "ko": "엘르아살은 비느하스를 낳고 비느하스는 아비수아를 낳고"
+    },
+    {
+      "number": 5,
+      "en": "Abishua the father of Bukki, Bukki the father of Uzzi,",
+      "de": "",
+      "zh": "亚比书生布基；布基生乌西；",
+      "ja": "",
+      "ko": "아비수아는 북기를 낳고 북기는 웃시를 낳고"
+    },
+    {
+      "number": 6,
+      "en": "Uzzi the father of Zerahiah, Zerahiah the father of Meraioth,",
+      "de": "",
+      "zh": "乌西生西拉希雅；西拉希雅生米拉约；",
+      "ja": "",
+      "ko": "웃시는 스라히야를 낳고 스라히야는 므라욧을 낳고"
+    },
+    {
+      "number": 7,
+      "en": "Meraioth the father of Amariah, Amariah the father of Ahitub,",
+      "de": "",
+      "zh": "米拉约生亚玛利雅；亚玛利雅生亚希突；",
+      "ja": "",
+      "ko": "므라욧은 아마랴를 낳고 아마랴는 아히둡을 낳고"
+    },
+    {
+      "number": 8,
+      "en": "Ahitub the father of Zadok, Zadok the father of Ahimaaz,",
+      "de": "",
+      "zh": "亚希突生撒督；撒督生亚希玛斯；",
+      "ja": "",
+      "ko": "아히둡은 사독을 낳고 사독은 아히마아스를 낳고"
+    },
+    {
+      "number": 9,
+      "en": "Ahimaaz the father of Azariah, Azariah the father of Johanan,",
+      "de": "",
+      "zh": "亚希玛斯生亚撒利雅；亚撒利雅生约哈难；",
+      "ja": "",
+      "ko": "아히마아스는 아사랴를 낳고 아사랴는 요하난을 낳고"
+    },
+    {
+      "number": 10,
+      "en": "Johanan the father of Azariah (it was he who served as priest in the temple Solomon built in Jerusalem),",
+      "de": "",
+      "zh": "约哈难生亚撒利雅（这亚撒利雅在所罗门于耶路撒冷所建造的殿中，供祭司的职分）；",
+      "ja": "",
+      "ko": "요하난은 아사랴를 낳았으니 이 아사랴는 솔로몬이 예루살렘에 세운 성전에서 제사장의 직분을 행한 자이며"
+    },
+    {
+      "number": 11,
+      "en": "Azariah the father of Amariah, Amariah the father of Ahitub,",
+      "de": "",
+      "zh": "亚撒利雅生亚玛利雅；亚玛利雅生亚希突；",
+      "ja": "",
+      "ko": "아사랴는 아마랴를 낳고 아마랴는 아히둡을 낳고"
+    },
+    {
+      "number": 12,
+      "en": "Ahitub the father of Zadok, Zadok the father of Shallum,",
+      "de": "",
+      "zh": "亚希突生撒督；撒督生沙龙；",
+      "ja": "",
+      "ko": "아히둡은 사독을 낳고 사독은 살룸을 낳고"
+    },
+    {
+      "number": 13,
+      "en": "Shallum the father of Hilkiah, Hilkiah the father of Azariah,",
+      "de": "",
+      "zh": "沙龙生希勒家；希勒家生亚撒利雅；",
+      "ja": "",
+      "ko": "살룸은 힐기야를 낳고 힐기야는 아사랴를 낳고"
+    },
+    {
+      "number": 14,
+      "en": "Azariah the father of Seraiah, and Seraiah the father of Jehozadak.",
+      "de": "",
+      "zh": "亚撒利雅生西莱雅；西莱雅生约萨答。",
+      "ja": "",
+      "ko": "아사랴는 스라야를 낳고 스라야는 여호사닥을 낳았으며"
+    },
+    {
+      "number": 15,
+      "en": "Jehozadak was deported when the LORD sent Judah and Jerusalem into exile by the hand of Nebuchadnezzar.",
+      "de": "",
+      "zh": "当耶和华借尼布甲尼撒的手掳掠犹大和耶路撒冷人的时候，这约萨答也被掳去。",
+      "ja": "",
+      "ko": "여호와께서 느부갓네살의 손으로 유다와 예루살렘 백성을 옮기실 때에 여호사닥도 가니라"
+    },
+    {
+      "number": 16,
+      "en": "The sons of Levi: Gershon, Kohath and Merari.",
+      "de": "",
+      "zh": "利未的儿子是革顺、哥辖、米拉利。",
+      "ja": "",
+      "ko": "레위의 아들들은 게르손과 그핫과 므라리이며"
+    },
+    {
+      "number": 17,
+      "en": "These are the names of the sons of Gershon: Libni and Shimei.",
+      "de": "",
+      "zh": "革顺的儿子名叫立尼、示每。",
+      "ja": "",
+      "ko": "게르손의 아들들의 이름은 이러하니 립니와 시므이요"
+    },
+    {
+      "number": 18,
+      "en": "The sons of Kohath: Amram, Izhar, Hebron and Uzziel.",
+      "de": "",
+      "zh": "哥辖的儿子是暗兰、以斯哈、希伯伦、乌薛。",
+      "ja": "",
+      "ko": "그핫의 아들들은 아므람과 이스할과 헤브론과 웃시엘이요"
+    },
+    {
+      "number": 19,
+      "en": "The sons of Merari: Mahli and Mushi. These are the clans of the Levites listed according to their fathers:",
+      "de": "",
+      "zh": "米拉利的儿子是抹利、母示。这是按着利未人宗族分的各家。",
+      "ja": "",
+      "ko": "므라리의 아들들은 말리와 무시라 그 조상에 따라 레위의 종족은 이러하니"
+    },
+    {
+      "number": 20,
+      "en": "Of Gershon: Libni his son, Jehath his son, Zimmah his son,",
+      "de": "",
+      "zh": "革顺的儿子是立尼；立尼的儿子是雅哈；雅哈的儿子是薪玛；",
+      "ja": "",
+      "ko": "게르손에게서 난 자는 곧 그의 아들 립니요 그의 아들은 야핫이요 그의 아들은 심마요"
+    },
+    {
+      "number": 21,
+      "en": "Joah his son, Iddo his son, Zerah his son and Jeatherai his son.",
+      "de": "",
+      "zh": "薪玛的儿子是约亚；约亚的儿子是易多；易多的儿子是谢拉；谢拉的儿子是耶特赖。",
+      "ja": "",
+      "ko": "그의 아들은 요아요 그의 아들은 잇도요 그의 아들은 세라요 그의 아들은 여아드래이며"
+    },
+    {
+      "number": 22,
+      "en": "The descendants of Kohath: Amminadab his son, Korah his son, Assir his son,",
+      "de": "",
+      "zh": "哥辖的儿子是亚米拿达；亚米拿达的儿子是可拉；可拉的儿子是亚惜；",
+      "ja": "",
+      "ko": "그핫에게서 난 자는 곧 그 아들은 암미나답이요 그의 아들은 고라요 그의 아들은 앗실이요"
+    },
+    {
+      "number": 23,
+      "en": "Elkanah his son, Ebiasaph his son, Assir his son,",
+      "de": "",
+      "zh": "亚惜的儿子是以利加拿；以利加拿的儿子是以比雅撒；以比雅撒的儿子是亚惜；",
+      "ja": "",
+      "ko": "그의 아들은 엘가나요 그의 아들은 에비아삽이요 그의 아들은 앗실이요"
+    },
+    {
+      "number": 24,
+      "en": "Tahath his son, Uriel his son, Uzziah his son and Shaul his son.",
+      "de": "",
+      "zh": "亚惜的儿子是他哈；他哈的儿子是乌列；乌列的儿子是乌西雅；乌西雅的儿子是少罗。",
+      "ja": "",
+      "ko": "그의 아들은 다핫이요 그의 아들은 우리엘이요 그의 아들은 웃시야요 그의 아들은 사울이라"
+    },
+    {
+      "number": 25,
+      "en": "The descendants of Elkanah: Amasai, Ahimoth,",
+      "de": "",
+      "zh": "以利加拿的儿子是亚玛赛和亚希摩。",
+      "ja": "",
+      "ko": "엘가나의 아들들은 아마새와 아히못이라"
+    },
+    {
+      "number": 26,
+      "en": "Elkanah his son, Zophai his son, Nahath his son,",
+      "de": "",
+      "zh": "亚希摩的儿子是以利加拿；以利加拿的儿子是琐菲；琐菲的儿子是拿哈；",
+      "ja": "",
+      "ko": "엘가나로 말하면 그의 자손은 이러하니 그의 아들은 소배요 그의 아들은 나핫이요"
+    },
+    {
+      "number": 27,
+      "en": "Eliab his son, Jeroham his son, Elkanah his son and Samuel his son.",
+      "de": "",
+      "zh": "拿哈的儿子是以利押；以利押的儿子是耶罗罕；耶罗罕的儿子是以利加拿；以利加拿的儿子是撒母耳。",
+      "ja": "",
+      "ko": "그의 아들은 엘리압이요 그의 아들은 여로함이요 그의 아들은 엘가나라"
+    },
+    {
+      "number": 28,
+      "en": "The sons of Samuel: Joel the firstborn and Abijah the second son.",
+      "de": "",
+      "zh": "撒母耳的长子是约珥，次子是亚比亚。",
+      "ja": "",
+      "ko": "사무엘의 아들들은 맏아들 요엘이요 다음은 아비야라"
+    },
+    {
+      "number": 29,
+      "en": "The descendants of Merari: Mahli, Libni his son, Shimei his son, Uzzah his son,",
+      "de": "",
+      "zh": "米拉利的儿子是抹利；抹利的儿子是立尼；立尼的儿子是示每；示每的儿子是乌撒；",
+      "ja": "",
+      "ko": "므라리에게서 난 자는 말리요 그의 아들은 립니요 그의 아들은 시므이요 그의 아들은 웃사요"
+    },
+    {
+      "number": 30,
+      "en": "Shimea his son, Haggiah his son and Asaiah his son.",
+      "de": "",
+      "zh": "乌撒的儿子是示米亚；示米亚的儿子是哈基雅；哈基雅的儿子是亚帅雅。",
+      "ja": "",
+      "ko": "그의 아들은 시므아요 그의 아들은 학기야요 그의 아들은 아사야더라"
+    },
+    {
+      "number": 31,
+      "en": "These are the men David put in charge of the music in the house of the LORD after the ark came to rest there.",
+      "de": "",
+      "zh": "约柜安设之后，大卫派人在耶和华殿中管理歌唱的事。",
+      "ja": "",
+      "ko": "언약궤가 평안을 얻었을 때에 다윗이 여호와의 성전에서 찬송하는 직분을 맡긴 자들은 아래와 같았더라"
+    },
+    {
+      "number": 32,
+      "en": "They ministered with music before the tabernacle, the Tent of Meeting, until Solomon built the temple of the LORD in Jerusalem. They performed their duties according to the regulations laid down for them.",
+      "de": "",
+      "zh": "他们就在会幕前当歌唱的差，及至所罗门在耶路撒冷建造了耶和华的殿，他们便按着班次供职。",
+      "ja": "",
+      "ko": "솔로몬이 예루살렘에서 여호와의 성전을 세울 때까지 그들이 회막 앞에서 찬송하는 일을 행하되 그 계열대로 직무를 행하였더라"
+    },
+    {
+      "number": 33,
+      "en": "Here are the men who served, together with their sons: From the Kohathites: Heman, the musician, the son of Joel, the son of Samuel,",
+      "de": "",
+      "zh": "供职的人和他们的子孙记在下面： 哥辖的子孙中有歌唱的希幔。希幔是约珥的儿子；约珥是撒母耳的儿子；",
+      "ja": "",
+      "ko": "직무를 행하는 자와 그의 아들들은 이러하니 그핫의 자손 중에 헤만은 찬송하는 자라 그는 요엘의 아들이요 요엘은 사무엘의 아들이요"
+    },
+    {
+      "number": 34,
+      "en": "the son of Elkanah, the son of Jeroham, the son of Eliel, the son of Toah,",
+      "de": "",
+      "zh": "撒母耳是以利加拿的儿子；以利加拿是耶罗罕的儿子；耶罗罕是以列的儿子；以列是陀亚的儿子；",
+      "ja": "",
+      "ko": "사무엘은 엘가나의 아들이요 엘가나는 여로함의 아들이요 여로함은 엘리엘의 아들이요 엘리엘은 도아의 아들이요"
+    },
+    {
+      "number": 35,
+      "en": "the son of Zuph, the son of Elkanah, the son of Mahath, the son of Amasai,",
+      "de": "",
+      "zh": "陀亚是苏弗的儿子；苏弗是以利加拿的儿子；以利加拿是玛哈的儿子；玛哈是亚玛赛的儿子；",
+      "ja": "",
+      "ko": "도아는 숩의 아들이요 숩은 엘가나의 아들이요 엘가나는 마핫의 아들이요 마핫은 아마새의 아들이요"
+    },
+    {
+      "number": 36,
+      "en": "the son of Elkanah, the son of Joel, the son of Azariah, the son of Zephaniah,",
+      "de": "",
+      "zh": "亚玛赛是以利加拿的儿子；以利加拿是约珥的儿子；约珥是亚撒利雅的儿子；亚撒利雅是西番雅的儿子；",
+      "ja": "",
+      "ko": "아마새는 엘가나의 아들이요 엘가나는 요엘의 아들이요 요엘은 아사랴의 아들이요 아사랴는 스바냐의 아들이요"
+    },
+    {
+      "number": 37,
+      "en": "the son of Tahath, the son of Assir, the son of Ebiasaph, the son of Korah,",
+      "de": "",
+      "zh": "西番雅是他哈的儿子；他哈是亚惜的儿子；亚惜是以比雅撒的儿子；以比雅撒是可拉的儿子；",
+      "ja": "",
+      "ko": "스바냐는 다핫의 아들이요 다핫은 앗실의 아들이요 앗실은 에비아삽의 아들이요 에비아삽은 고라의 아들이요"
+    },
+    {
+      "number": 38,
+      "en": "the son of Izhar, the son of Kohath, the son of Levi, the son of Israel;",
+      "de": "",
+      "zh": "可拉是以斯哈的儿子；以斯哈是哥辖的儿子；哥辖是利未的儿子；利未是以色列的儿子。",
+      "ja": "",
+      "ko": "고라는 이스할의 아들이요 이스할은 그핫의 아들이요 그핫은 레위의 아들이요 레위는 이스라엘의 아들이라"
+    },
+    {
+      "number": 39,
+      "en": "and Heman's associate Asaph, who served at his right hand: Asaph son of Berekiah, the son of Shimea,",
+      "de": "",
+      "zh": "希幔的族兄亚萨是比利家的儿子，亚萨在希幔右边供职。比利家是示米亚的儿子；",
+      "ja": "",
+      "ko": "헤만의 형제 아삽은 헤만의 오른쪽에서 직무를 행하였으니 그는 베레갸의 아들이요 베레갸는 시므아의 아들이요"
+    },
+    {
+      "number": 40,
+      "en": "the son of Michael, the son of Baaseiah, the son of Malkijah,",
+      "de": "",
+      "zh": "示米亚是米迦勒的儿子；米迦勒是巴西雅的儿子；巴西雅是玛基雅的儿子；",
+      "ja": "",
+      "ko": "시므아는 미가엘의 아들이요 미가엘은 바아세야의 아들이요 바아세야는 말기야의 아들이요"
+    },
+    {
+      "number": 41,
+      "en": "the son of Ethni, the son of Zerah, the son of Adaiah,",
+      "de": "",
+      "zh": "玛基雅是伊特尼的儿子；伊特尼是谢拉的儿子；谢拉是亚大雅的儿子；",
+      "ja": "",
+      "ko": "말기야는 에드니의 아들이요 에드니는 세라의 아들이요 세라는 아다야의 아들이요"
+    },
+    {
+      "number": 42,
+      "en": "the son of Ethan, the son of Zimmah, the son of Shimei,",
+      "de": "",
+      "zh": "亚大雅是以探的儿子；以探是薪玛的儿子；薪玛是示每的儿子；",
+      "ja": "",
+      "ko": "아다야는 에단의 아들이요 에단은 심마의 아들이요 심마는 시므이의 아들이요"
+    },
+    {
+      "number": 43,
+      "en": "the son of Jahath, the son of Gershon, the son of Levi;",
+      "de": "",
+      "zh": "示每是雅哈的儿子；雅哈是革顺的儿子。革顺是利未的儿子。",
+      "ja": "",
+      "ko": "시므이는 야핫의 아들이요 야핫은 게르손의 아들이요 게르손은 레위의 아들이며"
+    },
+    {
+      "number": 44,
+      "en": "and from their associates, the Merarites, at his left hand: Ethan son of Kishi, the son of Abdi, the son of Malluch,",
+      "de": "",
+      "zh": "他们的族弟兄米拉利的子孙，在他们左边供职的有以探。以探是基示的儿子；基示是亚伯底的儿子；亚伯底是玛鹿的儿子；",
+      "ja": "",
+      "ko": "그들의 형제 므라리의 자손 중 그의 왼쪽에서 직무를 행하는 자는 에단이라 에단은 기시의 아들이요 기시는 압디의 아들이요 압디는 말룩의 아들이요"
+    },
+    {
+      "number": 45,
+      "en": "the son of Hashabiah, the son of Amaziah, the son of Hilkiah,",
+      "de": "",
+      "zh": "玛鹿是哈沙比雅的儿子；哈沙比雅是亚玛谢的儿子；亚玛谢是希勒家的儿子；",
+      "ja": "",
+      "ko": "말룩은 하사뱌의 아들이요 하사뱌는 아마시야의 아들이요 아마시야는 힐기야의 아들이요"
+    },
+    {
+      "number": 46,
+      "en": "the son of Amzi, the son of Bani, the son of Shemer,",
+      "de": "",
+      "zh": "希勒家是暗西的儿子；暗西是巴尼的儿子；巴尼是沙麦的儿子；",
+      "ja": "",
+      "ko": "힐기야는 암시의 아들이요 암시는 바니의 아들이요 바니는 세멜의 아들이요"
+    },
+    {
+      "number": 47,
+      "en": "the son of Mahli, the son of Mushi, the son of Merari, the son of Levi.",
+      "de": "",
+      "zh": "沙麦是末力的儿子；末力是母示的儿子；母示是米拉利的儿子；米拉利是利未的儿子。",
+      "ja": "",
+      "ko": "세멜은 말리의 아들이요 말리는 무시의 아들이요 무시는 므라리의 아들이요 므라리는 레위의 아들이며"
+    },
+    {
+      "number": 48,
+      "en": "Their fellow Levites were assigned to all the other duties of the tabernacle, the house of God.",
+      "de": "",
+      "zh": "他们的族弟兄利未人也被派办　神殿中的一切事。",
+      "ja": "",
+      "ko": "그들의 형제 레위 사람들은 하나님의 집 장막의 모든 일을 맡았더라"
+    },
+    {
+      "number": 49,
+      "en": "But Aaron and his descendants were the ones who presented offerings on the altar of burnt offering and on the altar of incense in connection with all that was done in the Most Holy Place, making atonement for Israel, in accordance with all that Moses the servant of God had commanded.",
+      "de": "",
+      "zh": "亚伦和他的子孙在燔祭坛和香坛上献祭烧香，又在至圣所办理一切的事，为以色列人赎罪，是照　神仆人摩西所吩咐的。",
+      "ja": "",
+      "ko": "아론과 그의 자손들은 번제단과 향단 위에 분향하며 제사를 드리며 지성소의 모든 일을 하여 하나님의 종 모세의 모든 명령대로 이스라엘을 위하여 속죄하니"
+    },
+    {
+      "number": 50,
+      "en": "These were the descendants of Aaron: Eleazar his son, Phinehas his son, Abishua his son,",
+      "de": "",
+      "zh": "亚伦的儿子是以利亚撒；以利亚撒的儿子是非尼哈；非尼哈的儿子是亚比书；",
+      "ja": "",
+      "ko": "아론의 자손들은 이러하니라 그의 아들은 엘르아살이요 그의 아들은 비느하스요 그의 아들은 아비수아요"
+    },
+    {
+      "number": 51,
+      "en": "Bukki his son, Uzzi his son, Zerahiah his son,",
+      "de": "",
+      "zh": "亚比书的儿子是布基；布基的儿子是乌西；乌西的儿子是西拉希雅；",
+      "ja": "",
+      "ko": "그의 아들은 북기요 그의 아들은 웃시요 그의 아들은 스라히야요"
+    },
+    {
+      "number": 52,
+      "en": "Meraioth his son, Amariah his son, Ahitub his son,",
+      "de": "",
+      "zh": "西拉希雅的儿子是米拉约；米拉约的儿子是亚玛利雅；亚玛利雅的儿子是亚希突；",
+      "ja": "",
+      "ko": "그의 아들은 므라욧이요 그의 아들은 아마랴요 그의 아들은 아히둡이요"
+    },
+    {
+      "number": 53,
+      "en": "Zadok his son and Ahimaaz his son.",
+      "de": "",
+      "zh": "亚希突的儿子是撒督；撒督的儿子是亚希玛斯。",
+      "ja": "",
+      "ko": "그의 아들은 사독이요 그의 아들은 아히마아스이더라"
+    },
+    {
+      "number": 54,
+      "en": "These were the locations of their settlements allotted as their territory (they were assigned to the descendants of Aaron who were from the Kohathite clan, because the first lot was for them):",
+      "de": "",
+      "zh": "他们的住处按着境内的营寨，记在下面：哥辖族亚伦的子孙先拈阄得地，",
+      "ja": "",
+      "ko": "그들의 거주한 곳은 사방 지계 안에 있으니 그들의 마을은 아래와 같으니라 아론 자손 곧 그핫 종족이 먼저 제비 뽑았으므로"
+    },
+    {
+      "number": 55,
+      "en": "They were given Hebron in Judah with its surrounding pasturelands.",
+      "de": "",
+      "zh": "在犹大地中得了希伯 和四围的郊野；",
+      "ja": "",
+      "ko": "그들에게 유다 땅의 헤브론과 그 사방 초원을 주었고"
+    },
+    {
+      "number": 56,
+      "en": "But the fields and villages around the city were given to Caleb son of Jephunneh.",
+      "de": "",
+      "zh": "只是属城的田地和村庄都为耶孚尼的儿子迦勒所得。",
+      "ja": "",
+      "ko": "그러나 그 성의 밭과 마을은 여분네의 아들 갈렙에게 주었으며"
+    },
+    {
+      "number": 57,
+      "en": "So the descendants of Aaron were given Hebron (a city of refuge), and Libnah, Jattir, Eshtemoa,",
+      "de": "",
+      "zh": "亚伦的子孙得了逃城希伯 ，又得了立拿与其郊野，雅提珥、以实提莫与其郊野；",
+      "ja": "",
+      "ko": "아론 자손에게 도피성을 주었으니 헤브론과 립나와 그 초원과 얏딜과 에스드모아와 그 초원과"
+    },
+    {
+      "number": 58,
+      "en": "Hilen, Debir,",
+      "de": "",
+      "zh": "希 与其郊野，底璧与其郊野，",
+      "ja": "",
+      "ko": "힐렌과 그 초원과 드빌과 그 초원과"
+    },
+    {
+      "number": 59,
+      "en": "Ashan, Juttah and Beth Shemesh, together with their pasturelands.",
+      "de": "",
+      "zh": "亚珊与其郊野，伯·示麦与其郊野。",
+      "ja": "",
+      "ko": "아산과 그 초원과 벧세메스와 그 초원이며"
+    },
+    {
+      "number": 60,
+      "en": "And from the tribe of Benjamin they were given Gibeon, Geba, Alemeth and Anathoth, together with their pasturelands. These towns, which were distributed among the Kohathite clans, were thirteen in all.",
+      "de": "",
+      "zh": "在便雅悯支派的地中，得了迦巴与其郊野，阿勒篾与其郊野，亚拿突与其郊野。他们诸家所得的城共十三座。",
+      "ja": "",
+      "ko": "또 베냐민 지파 중에서는 게바와 그 초원과 알레멧과 그 초원과 아나돗과 그 초원을 주었으니 그들의 종족이 얻은 성이 모두 열셋이었더라"
+    },
+    {
+      "number": 61,
+      "en": "The rest of Kohath's descendants were allotted ten towns from the clans of half the tribe of Manasseh.",
+      "de": "",
+      "zh": "哥辖族其余的人又拈阄，在玛拿西半支派的地中得了十座城。",
+      "ja": "",
+      "ko": "그핫 자손의 남은 자에게는 절반 지파 즉 므낫세 반 지파 종족 중에서 제비 뽑아 열 성읍을 주었고"
+    },
+    {
+      "number": 62,
+      "en": "The descendants of Gershon, clan by clan, were allotted thirteen towns from the tribes of Issachar, Asher and Naphtali, and from the part of the tribe of Manasseh that is in Bashan.",
+      "de": "",
+      "zh": "革顺族按着宗族，在以萨迦支派的地中，亚设支派的地中，拿弗他利支派的地中，巴珊内玛拿西支派的地中，得了十三座城。",
+      "ja": "",
+      "ko": "게르손 자손에게는 그들의 종족대로 잇사갈 지파와 아셀 지파와 납달리 지파와 바산에 있는 므낫세 지파 중에서 열세 성읍을 주었고"
+    },
+    {
+      "number": 63,
+      "en": "The descendants of Merari, clan by clan, were allotted twelve towns from the tribes of Reuben, Gad and Zebulun.",
+      "de": "",
+      "zh": "米拉利族按着宗族拈阄，在吕便支派的地中，迦得支派的地中，西布伦支派的地中，得了十二座城。",
+      "ja": "",
+      "ko": "므라리 자손에게는 그 종족대로 르우벤 지파와 갓 지파와 스불론 지파 중에서 제비 뽑아 열두 성읍을 주었더라"
+    },
+    {
+      "number": 64,
+      "en": "So the Israelites gave the Levites these towns and their pasturelands.",
+      "de": "",
+      "zh": "以色列人将这些城与其郊野给了利未人。",
+      "ja": "",
+      "ko": "이스라엘 자손이 이 모든 성읍과 그 목초지를 레위 자손에게 주되"
+    },
+    {
+      "number": 65,
+      "en": "From the tribes of Judah, Simeon and Benjamin they allotted the previously named towns.",
+      "de": "",
+      "zh": "这以上录名的城，在犹大、西缅、便雅悯三支派的地中，以色列人拈阄给了他们。",
+      "ja": "",
+      "ko": "유다 자손의 지파와 시므온 자손의 지파와 베냐민 자손의 지파 중에서 이 위에 기록한 여러 성읍을 제비 뽑아 주었더라"
+    },
+    {
+      "number": 66,
+      "en": "Some of the Kohathite clans were given as their territory towns from the tribe of Ephraim.",
+      "de": "",
+      "zh": "哥辖族中有几家在以法莲支派的地中也得了城邑，",
+      "ja": "",
+      "ko": "그핫 자손의 몇 종족은 에브라임 지파 중에서 성읍을 얻어 영토를 삼았으며"
+    },
+    {
+      "number": 67,
+      "en": "In the hill country of Ephraim they were given Shechem (a city of refuge), and Gezer,",
+      "de": "",
+      "zh": "在以法莲山地得了逃城示剑与其郊野，又得了基色与其郊野，",
+      "ja": "",
+      "ko": "또 그들에게 도피성을 주었으니 에브라임 산중 세겜과 그 초원과 게셀과 그 초원과"
+    },
+    {
+      "number": 68,
+      "en": "Jokmeam, Beth Horon,",
+      "de": "",
+      "zh": "约缅与其郊野，伯·和 与其郊野，",
+      "ja": "",
+      "ko": "욕므암과 그 초원과 벧호론과 그 초원과"
+    },
+    {
+      "number": 69,
+      "en": "Aijalon and Gath Rimmon, together with their pasturelands.",
+      "de": "",
+      "zh": "亚雅 与其郊野，迦特·临门与其郊野。",
+      "ja": "",
+      "ko": "아얄론과 그 초원과 가드림몬과 그 초원이며"
+    },
+    {
+      "number": 70,
+      "en": "And from half the tribe of Manasseh the Israelites gave Aner and Bileam, together with their pasturelands, to the rest of the Kohathite clans.",
+      "de": "",
+      "zh": "哥辖族其余的人在玛拿西半支派的地中得了亚乃与其郊野，比连与其郊野。",
+      "ja": "",
+      "ko": "또 그핫 자손의 남은 종족에게는 므낫세 반 지파 중에서 아넬과 그 초원과 빌르암과 그 초원을 주었더라"
+    },
+    {
+      "number": 71,
+      "en": "The Gershonites received the following: From the clan of the half-tribe of Manasseh they received Golan in Bashan and also Ashtaroth, together with their pasturelands;",
+      "de": "",
+      "zh": "革顺族在玛拿西半支派的地中得了巴珊的哥兰与其郊野，亚斯他录与其郊野；",
+      "ja": "",
+      "ko": "게르손 자손에게는 므낫세 반 지파 종족 중에서 바산의 골란과 그 초원과 아스다롯과 그 초원을 주고"
+    },
+    {
+      "number": 72,
+      "en": "from the tribe of Issachar they received Kedesh, Daberath,",
+      "de": "",
+      "zh": "又在以萨迦支派的地中得了基低斯与其郊野，大比拉与其郊野，",
+      "ja": "",
+      "ko": "또 잇사갈 지파 중에서 게데스와 그 초원과 다브랏과 그 초원과"
+    },
+    {
+      "number": 73,
+      "en": "Ramoth and Anem, together with their pasturelands;",
+      "de": "",
+      "zh": "拉末与其郊野，亚年与其郊野；",
+      "ja": "",
+      "ko": "라못과 그 초원과 아넴과 그 초원을 주고"
+    },
+    {
+      "number": 74,
+      "en": "from the tribe of Asher they received Mashal, Abdon,",
+      "de": "",
+      "zh": "在亚设支派的地中得了玛沙与其郊野，押顿与其郊野，",
+      "ja": "",
+      "ko": "아셀 지파 중에서 마살과 그 초원과 압돈과 그 초원과"
+    },
+    {
+      "number": 75,
+      "en": "Hukok and Rehob, together with their pasturelands;",
+      "de": "",
+      "zh": "户割与其郊野，利合与其郊野；",
+      "ja": "",
+      "ko": "후곡과 그 초원과 르홉과 그 초원을 주고"
+    },
+    {
+      "number": 76,
+      "en": "and from the tribe of Naphtali they received Kedesh in Galilee, Hammon and Kiriathaim, together with their pasturelands.",
+      "de": "",
+      "zh": "在拿弗他利支派的地中得了加利利的基低斯与其郊野，哈们与其郊野，基列亭与其郊野。",
+      "ja": "",
+      "ko": "납달리 지파 중에서 갈릴리의 게데스와 그 초원과 함몬과 그 초원과 기랴다임과 그 초원을 주니라"
+    },
+    {
+      "number": 77,
+      "en": "The Merarites (the rest of the Levites) received the following: From the tribe of Zebulun they received Jokneam, Kartah, Rimmono and Tabor, together with their pasturelands;",
+      "de": "",
+      "zh": "还有米拉利族的人在西布伦支派的地中得了临摩挪与其郊野，他泊与其郊野；",
+      "ja": "",
+      "ko": "므라리 자손의 남은 자에게는 스불론 지파 중에서 림모노와 그 초원과 다볼과 그 초원을 주었고"
+    },
+    {
+      "number": 78,
+      "en": "from the tribe of Reuben across the Jordan east of Jericho they received Bezer in the desert, Jahzah,",
+      "de": "",
+      "zh": "又在耶利哥的约旦河东，在吕便支派的地中得了旷野的比悉与其郊野，雅哈撒与其郊野，",
+      "ja": "",
+      "ko": "또 요단 건너 동쪽 곧 여리고 맞은편 르우벤 지파 중에서 광야의 베셀과 그 초원과 야사와 그 초원과"
+    },
+    {
+      "number": 79,
+      "en": "Kedemoth and Mephaath, together with their pasturelands;",
+      "de": "",
+      "zh": "基底莫与其郊野，米法押与其郊野；",
+      "ja": "",
+      "ko": "그데못과 그 초원과 메바앗과 그 초원을 주었고"
+    },
+    {
+      "number": 80,
+      "en": "and from the tribe of Gad they received Ramoth in Gilead, Mahanaim,",
+      "de": "",
+      "zh": "又在迦得支派的地中得了基列的拉末与其郊野，玛哈念与其郊野，",
+      "ja": "",
+      "ko": "또 갓 지파 중에서 길르앗의 라못과 그 초원과 마하나임과 그 초원과"
+    },
+    {
+      "number": 81,
+      "en": "Heshbon and Jazer, together with their pasturelands.",
+      "de": "",
+      "zh": "希实本与其郊野，雅谢与其郊野。",
+      "ja": "",
+      "ko": "헤스본과 그 초원과 야셀과 그 초원을 주었더라"
+    }
+  ]
+}
