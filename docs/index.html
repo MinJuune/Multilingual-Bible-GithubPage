@@ -36,6 +36,7 @@
             background: linear-gradient(180deg, #fff 0%, var(--bg-primary) 100%);
             border-bottom: 2px solid var(--border);
         }
+
         h1 {
             font-family: 'Crimson Pro', serif;
             font-size: 3.2rem;
@@ -43,6 +44,7 @@
             color: var(--accent);
             letter-spacing: -0.02em;
         }
+
         .subtitle {
             font-size: 0.85rem;
             color: var(--text-secondary);
@@ -65,10 +67,12 @@
             flex-direction: column;
             overflow: hidden;
         }
+
         .sidebar-search {
             padding: 1rem;
             border-bottom: 1px solid var(--border);
         }
+
         .sidebar-search input {
             width: 100%;
             padding: 0.5rem 0.8rem;
@@ -80,12 +84,16 @@
             outline: none;
             transition: border-color 0.2s;
         }
-        .sidebar-search input:focus { border-color: var(--accent-light); }
+
+        .sidebar-search input:focus {
+            border-color: var(--accent-light);
+        }
 
         .testament-tabs {
             display: flex;
             border-bottom: 1px solid var(--border);
         }
+
         .testament-tab {
             flex: 1;
             padding: 0.6rem;
@@ -98,14 +106,23 @@
             border-bottom: 2px solid transparent;
             transition: all 0.2s;
         }
-        .testament-tab.active-ot { color: var(--ot-color); border-bottom-color: var(--ot-color); }
-        .testament-tab.active-nt { color: var(--nt-color); border-bottom-color: var(--nt-color); }
+
+        .testament-tab.active-ot {
+            color: var(--ot-color);
+            border-bottom-color: var(--ot-color);
+        }
+
+        .testament-tab.active-nt {
+            color: var(--nt-color);
+            border-bottom-color: var(--nt-color);
+        }
 
         .books-list {
             overflow-y: auto;
             flex: 1;
             padding: 0.5rem 0;
         }
+
         .book-item {
             padding: 0.7rem 1.2rem;
             cursor: pointer;
@@ -114,10 +131,27 @@
             justify-content: space-between;
             align-items: center;
         }
-        .book-item:hover { background: var(--bg-primary); }
-        .book-item.active { background: #f3ece3; }
-        .book-item-name { font-size: 0.95rem; font-weight: 400; }
-        .book-item-en { font-size: 0.75rem; color: var(--text-secondary); font-family: 'Crimson Pro', serif; font-style: italic; }
+
+        .book-item:hover {
+            background: var(--bg-primary);
+        }
+
+        .book-item.active {
+            background: #f3ece3;
+        }
+
+        .book-item-name {
+            font-size: 0.95rem;
+            font-weight: 400;
+        }
+
+        .book-item-en {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            font-family: 'Crimson Pro', serif;
+            font-style: italic;
+        }
+
         .book-badge {
             font-size: 0.65rem;
             padding: 0.15rem 0.45rem;
@@ -125,52 +159,83 @@
             font-weight: 600;
             letter-spacing: 0.05em;
         }
-        .badge-ot { background: #e8f3ec; color: var(--ot-color); }
-        .badge-nt { background: #e5edf5; color: var(--nt-color); }
+
+        .badge-ot {
+            background: #e8f3ec;
+            color: var(--ot-color);
+        }
+
+        .badge-nt {
+            background: #e5edf5;
+            color: var(--nt-color);
+        }
 
         .main-content {
             flex: 1;
             display: flex;
             flex-direction: column;
             overflow: hidden;
+            min-width: 0;
         }
 
         .chapter-nav {
             background: var(--bg-secondary);
             border-bottom: 1px solid var(--border);
-            padding: 0.8rem 1.5rem;
+            padding: 1rem 1rem 1.1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .chapter-nav-header {
             display: flex;
             align-items: center;
-            gap: 1rem;
+            justify-content: space-between;
+            gap: 0.8rem;
             flex-wrap: wrap;
-            min-height: 56px;
         }
+
         .chapter-nav-title {
             font-family: 'Crimson Pro', serif;
-            font-size: 1.3rem;
+            font-size: 1.45rem;
             font-weight: 600;
             color: var(--accent);
-            margin-right: 0.5rem;
         }
+
         .chapter-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.3rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+            gap: 0.45rem;
+            width: 100%;
         }
+
         .chapter-btn {
-            width: 34px;
-            height: 34px;
+            aspect-ratio: 1 / 1;
+            min-height: 44px;
             border: 1px solid var(--border);
-            border-radius: 6px;
+            border-radius: 8px;
             background: var(--bg-primary);
             cursor: pointer;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             color: var(--text-secondary);
             transition: all 0.15s;
-            display: flex; align-items: center; justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
         }
-        .chapter-btn:hover { border-color: var(--accent-light); color: var(--accent); }
-        .chapter-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+        .chapter-btn:hover {
+            border-color: var(--accent-light);
+            color: var(--accent);
+            background: #f6f0e8;
+        }
+
+        .chapter-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
 
         .verses-area {
             flex: 1;
@@ -187,7 +252,10 @@
             box-shadow: 0 2px 8px var(--shadow);
             transition: box-shadow 0.2s;
         }
-        .verse-block:hover { box-shadow: 0 4px 16px var(--shadow); }
+
+        .verse-block:hover {
+            box-shadow: 0 4px 16px var(--shadow);
+        }
 
         .verse-number-badge {
             display: inline-flex;
@@ -209,8 +277,14 @@
             border-left: 3px solid transparent;
             transition: border-color 0.2s;
         }
-        .verse-row:hover { border-left-color: var(--accent-light); }
-        .verse-row:last-child { margin-bottom: 0; }
+
+        .verse-row:hover {
+            border-left-color: var(--accent-light);
+        }
+
+        .verse-row:last-child {
+            margin-bottom: 0;
+        }
 
         .lang-label {
             font-size: 0.7rem;
@@ -220,6 +294,7 @@
             font-weight: 600;
             margin-bottom: 0.2rem;
         }
+
         .verse-text-en {
             font-family: 'Crimson Pro', serif;
             font-size: 1.1rem;
@@ -227,24 +302,28 @@
             line-height: 1.8;
             color: var(--text-secondary);
         }
+
         .verse-text-de {
             font-family: 'Crimson Pro', serif;
             font-size: 1.05rem;
             line-height: 1.8;
             color: var(--text-secondary);
         }
+
         .verse-text-zh {
             font-family: 'Noto Sans SC', sans-serif;
             font-size: 1.05rem;
             line-height: 1.8;
             color: var(--text-secondary);
         }
+
         .verse-text-ja {
             font-family: 'Noto Sans JP', sans-serif;
             font-size: 1.05rem;
             line-height: 1.8;
             color: var(--text-secondary);
         }
+
         .verse-text-ko {
             font-family: 'Noto Sans KR', sans-serif;
             font-size: 1.05rem;
@@ -256,8 +335,9 @@
             display: flex;
             gap: 0.5rem;
             align-items: center;
-            margin-left: auto;
+            flex-wrap: wrap;
         }
+
         .lang-toggle {
             padding: 0.3rem 0.7rem;
             border-radius: 20px;
@@ -270,34 +350,32 @@
             transition: all 0.2s;
             user-select: none;
         }
+
         .lang-toggle.on {
             background: var(--accent);
             color: white;
             border-color: var(--accent);
         }
 
-        .welcome {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-secondary);
-            gap: 1rem;
-        }
-        .welcome-icon { font-size: 4rem; opacity: 0.3; }
-        .welcome-text { font-family: 'Crimson Pro', serif; font-size: 1.4rem; font-weight: 300; }
-
         .loading {
             text-align: center;
-            padding: 3rem;
+            padding: 2rem;
             color: var(--text-secondary);
             font-style: italic;
         }
 
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 3px;
+        }
 
         .no-ot-jp {
             font-size: 0.8rem;
@@ -306,10 +384,84 @@
         }
 
         @media (max-width: 768px) {
-            .app-layout { flex-direction: column; height: auto; }
-            .sidebar { width: 100%; height: 200px; border-right: none; border-bottom: 1px solid var(--border); }
-            .verses-area { padding: 1rem; }
-            h1 { font-size: 2rem; }
+            .app-layout {
+                flex-direction: column;
+                height: auto;
+                min-height: calc(100vh - 110px);
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                max-height: 320px;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+            }
+
+            .main-content {
+                min-height: 0;
+            }
+
+            .chapter-nav {
+                padding: 0.9rem 0.8rem 1rem;
+            }
+
+            .chapter-nav-title {
+                font-size: 1.2rem;
+            }
+
+            .chapter-buttons {
+                grid-template-columns: repeat(6, 1fr);
+                gap: 0.4rem;
+            }
+
+            .chapter-btn {
+                min-height: 40px;
+                font-size: 0.8rem;
+                border-radius: 7px;
+            }
+
+            .lang-toggles {
+                width: 100%;
+                justify-content: flex-start;
+            }
+
+            .verses-area {
+                padding: 1rem;
+            }
+
+            .verse-block {
+                padding: 1.2rem 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 0.78rem;
+                line-height: 1.6;
+                padding: 0 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .chapter-buttons {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .chapter-btn {
+                min-height: 38px;
+                font-size: 0.78rem;
+            }
+
+            .book-item {
+                padding: 0.65rem 1rem;
+            }
+
+            .book-item-name {
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -335,12 +487,7 @@
     </aside>
 
     <main class="main-content">
-        <div class="chapter-nav" id="chapterNav">
-            <div class="welcome" id="welcomeMsg" style="display:flex;">
-                <div class="welcome-icon">✝</div>
-                <div class="welcome-text">책을 선택해 주세요</div>
-            </div>
-        </div>
+        <div class="chapter-nav" id="chapterNav"></div>
         <div class="verses-area" id="versesArea"></div>
     </main>
 </div>
@@ -400,8 +547,10 @@
             if (b.testament !== currentTab) return false;
             if (!q) return true;
             const ko = (KO_NAMES[b.id] || '').toLowerCase();
-            return b.id.toLowerCase().includes(q) || ko.includes(q) ||
-                   (b.de || '').toLowerCase().includes(q) || (b.zh || '').includes(q);
+            return b.id.toLowerCase().includes(q) ||
+                   ko.includes(q) ||
+                   (b.de || '').toLowerCase().includes(q) ||
+                   (b.zh || '').includes(q);
         });
 
         const container = document.getElementById('booksList');
@@ -409,16 +558,19 @@
             container.innerHTML = '<div class="loading">검색 결과 없음</div>';
             return;
         }
+
         container.innerHTML = filtered.map(b => {
             const ko = KO_NAMES[b.id] || b.id;
             const isActive = currentBook && currentBook.id === b.id;
-            return `<div class="book-item ${isActive ? 'active' : ''}" onclick="selectBook('${b.id}')">
-                <div>
-                    <div class="book-item-name">${ko}</div>
-                    <div class="book-item-en">${b.en}</div>
+            return `
+                <div class="book-item ${isActive ? 'active' : ''}" onclick="selectBook('${b.id}')">
+                    <div>
+                        <div class="book-item-name">${ko}</div>
+                        <div class="book-item-en">${b.en}</div>
+                    </div>
+                    <span class="book-badge badge-${b.testament.toLowerCase()}">${b.testament}</span>
                 </div>
-                <span class="book-badge badge-${b.testament.toLowerCase()}">${b.testament}</span>
-            </div>`;
+            `;
         }).join('');
     }
 
@@ -434,8 +586,10 @@
         renderBooks(document.getElementById('searchInput').value);
 
         const chapterNav = document.getElementById('chapterNav');
+        const versesArea = document.getElementById('versesArea');
+
         chapterNav.innerHTML = `<div class="loading">챕터 불러오는 중...</div>`;
-        document.getElementById('versesArea').innerHTML = '';
+        versesArea.innerHTML = '';
 
         const safeBook = toSafeFileName(book.id);
         const res = await fetch(`./data-json/chapters/${safeBook}.json`);
@@ -445,18 +599,22 @@
         const hasJa = !!book.ja;
 
         chapterNav.innerHTML = `
-            <div class="chapter-nav-title">${ko}</div>
+            <div class="chapter-nav-header">
+                <div class="chapter-nav-title">${ko}</div>
+                <div class="lang-toggles">
+                    <span class="lang-toggle on" id="tog-ko" onclick="toggleLang('ko')">KO</span>
+                    <span class="lang-toggle on" id="tog-en" onclick="toggleLang('en')">EN</span>
+                    <span class="lang-toggle on" id="tog-de" onclick="toggleLang('de')">DE</span>
+                    <span class="lang-toggle on" id="tog-zh" onclick="toggleLang('zh')">ZH</span>
+                    <span class="lang-toggle ${hasJa ? 'on' : ''}" id="tog-ja" onclick="toggleLang('ja')" ${!hasJa ? 'title="구약은 일본어 없음"' : ''}>
+                        JA${!hasJa ? '<small>*</small>' : ''}
+                    </span>
+                </div>
+            </div>
             <div class="chapter-buttons">
                 ${chapters.map(ch =>
                     `<button class="chapter-btn" id="chbtn-${ch}" onclick="loadChapter(${ch})">${ch}</button>`
                 ).join('')}
-            </div>
-            <div class="lang-toggles">
-                <span class="lang-toggle on" id="tog-ko" onclick="toggleLang('ko')">KO</span>
-                <span class="lang-toggle on" id="tog-en" onclick="toggleLang('en')">EN</span>
-                <span class="lang-toggle on" id="tog-de" onclick="toggleLang('de')">DE</span>
-                <span class="lang-toggle on" id="tog-zh" onclick="toggleLang('zh')">ZH</span>
-                <span class="lang-toggle ${hasJa ? 'on' : ''}" id="tog-ja" onclick="toggleLang('ja')" ${!hasJa ? 'title="구약은 일본어 없음"' : ''}>JA${!hasJa ? '<small>*</small>' : ''}</span>
             </div>
         `;
 
@@ -467,7 +625,9 @@
             activeLangs.ja = true;
         }
 
-        if (chapters.length > 0) loadChapter(chapters[0]);
+        if (chapters.length > 0) {
+            loadChapter(chapters[0]);
+        }
     }
 
     async function loadChapter(ch) {
@@ -477,7 +637,6 @@
         const btn = document.getElementById(`chbtn-${ch}`);
         if (btn) {
             btn.classList.add('active');
-            btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
         }
 
         const area = document.getElementById('versesArea');
@@ -493,22 +652,42 @@
 
     function buildVerseHTML(v) {
         const rows = [];
-        if (activeLangs.ko && v.ko) rows.push(`<div class="verse-row"><div class="lang-label">한국어 (개역개정)</div><div class="verse-text-ko">${v.ko}</div></div>`);
-        if (activeLangs.en && v.en) rows.push(`<div class="verse-row"><div class="lang-label">English (NIV)</div><div class="verse-text-en">${v.en}</div></div>`);
-        if (activeLangs.de && v.de) rows.push(`<div class="verse-row"><div class="lang-label">Deutsch (Luther)</div><div class="verse-text-de">${v.de}</div></div>`);
-        if (activeLangs.zh && v.zh) rows.push(`<div class="verse-row"><div class="lang-label">中文 (和合本)</div><div class="verse-text-zh">${v.zh}</div></div>`);
-        if (activeLangs.ja && v.ja) rows.push(`<div class="verse-row"><div class="lang-label">日本語 (口語訳)</div><div class="verse-text-ja">${v.ja}</div></div>`);
-        return `<div class="verse-block">
-            <div class="verse-number-badge">${v.number}</div>
-            ${rows.join('')}
-        </div>`;
+        if (activeLangs.ko && v.ko) {
+            rows.push(`<div class="verse-row"><div class="lang-label">한국어 (개역개정)</div><div class="verse-text-ko">${v.ko}</div></div>`);
+        }
+        if (activeLangs.en && v.en) {
+            rows.push(`<div class="verse-row"><div class="lang-label">English (NIV)</div><div class="verse-text-en">${v.en}</div></div>`);
+        }
+        if (activeLangs.de && v.de) {
+            rows.push(`<div class="verse-row"><div class="lang-label">Deutsch (Luther)</div><div class="verse-text-de">${v.de}</div></div>`);
+        }
+        if (activeLangs.zh && v.zh) {
+            rows.push(`<div class="verse-row"><div class="lang-label">中文 (和合本)</div><div class="verse-text-zh">${v.zh}</div></div>`);
+        }
+        if (activeLangs.ja && v.ja) {
+            rows.push(`<div class="verse-row"><div class="lang-label">日本語 (口語訳)</div><div class="verse-text-ja">${v.ja}</div></div>`);
+        }
+
+        return `
+            <div class="verse-block">
+                <div class="verse-number-badge">${v.number}</div>
+                ${rows.join('')}
+            </div>
+        `;
     }
 
     function toggleLang(lang) {
+        if (lang === 'ja' && currentBook && !currentBook.ja) return;
+
         activeLangs[lang] = !activeLangs[lang];
         const el = document.getElementById(`tog-${lang}`);
-        el.classList.toggle('on', activeLangs[lang]);
-        if (currentChapter) loadChapter(currentChapter);
+        if (el) {
+            el.classList.toggle('on', activeLangs[lang]);
+        }
+
+        if (currentChapter) {
+            loadChapter(currentChapter);
+        }
     }
 
     init();
